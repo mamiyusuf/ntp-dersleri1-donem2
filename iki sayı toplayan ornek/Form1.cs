@@ -25,7 +25,6 @@ namespace iki_sayı_toplayan_ornek
             sayi1 = Convert.ToInt32(txt1.Text);
             sayi2 = Convert.ToInt32(txt2.Text);
 
-            //toplam işlemi
             sonuc = sayi1 + sayi2;
             txtsonuc.Text = sonuc.ToString();
         }
